@@ -39,6 +39,7 @@ function generatePlaylist(guardians, songs) {
         return { guardian, genre, playlist };
     });
     // Return playlist
+    return playlists;
 }
 
 // Call generatePlaylist and display the playlists for each Guardian
